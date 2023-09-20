@@ -12,6 +12,8 @@ input {
 }
 
 div {
+	box-sizing: border-box;
+	width: 95%;
 	float: left;
 	margin: 5px;
 }
