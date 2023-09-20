@@ -11,9 +11,12 @@
 	<form method="POST" action="#null" autocomplete="on">
 		<fieldset id="collect">
 			<legend>Enter Data</legend>
-			<label>Email: <input type="email" name="email_field" placeholder="Enter your email here"></label>
-			<label>Phone Number: <input type="tel" name="phone_field" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
-			<label>Date of Birth: <input type="date" name="date_field"></label>
+			<label for="email">Email: </label>
+			<input id="email" type="email" name="email_field" placeholder="Enter your email here">
+			<label for="phone">Phone Number: </label>
+			<input id="phone" type="tel" name="phone_field" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+			<label for="date">Date of Birth: </label>
+			<input id="date" type="date" name="date_field">
 			<input id="submit" type="submit" value="Submit">
 		</fieldset>
 	</form>
