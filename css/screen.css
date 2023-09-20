@@ -29,7 +29,7 @@ div {
 	margin: 5px;
 }
 
-@media only screen and (min-width: 468px) {
+@media only screen and (min-width: 720px) {
 	div {
 		width: 30%;
 		margin: 10px 1.3%;
